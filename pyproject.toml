@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forest-monitoring"
+version = "0.3.0"
+description = "AI-powered interactive geospatial forest monitoring dashboard and training pipeline"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "folium>=0.17",
+  "numpy>=1.26",
+  "opencv-python>=4.10",
+  "matplotlib>=3.9",
+  "pandas>=2.2",
+  "pytest>=8.3",
+  "scikit-image>=0.24",
+  "scipy>=1.14",
+  "seaborn>=0.13",
+  "shapely>=2.0",
+  "streamlit>=1.40",
+  "streamlit-folium>=0.22",
+  "torch>=2.4",
+  "torchvision>=0.19",
+  "torchmetrics>=1.4",
+  "ultralytics>=8.3",
+  "earthengine-api>=1.1",
+  "geemap>=0.34",
+  "geopandas>=1.0",
+  "osmnx>=1.9",
+  "rasterio>=1.3",
+  "pycocotools>=2.0",
+  "PyYAML>=6.0",
+  "onnx>=1.17",
+  "onnxruntime>=1.20",
+  "onnxsim>=0.4",
+  "optuna>=4.2",
+  "huggingface_hub>=0.28",
+  "gradio>=5.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

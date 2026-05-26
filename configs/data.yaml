@@ -1,0 +1,10 @@
+path: ../dataset
+train: train/images
+val: val/images
+test: test/images
+names:
+  0: forest
+  1: field
+  2: lake
+  3: road
+  4: building
