@@ -11,8 +11,7 @@
 
 ## ⚡ Get Up and Running in 2 Minutes
 
-You don't need a PhD to use this. Here's all you need to do:
-
+You don't need a PhD to use this. Here's all you need to do: 
 ### 1️⃣ Clone & Set Up
 
 ```bash
@@ -28,7 +27,6 @@ pip install -r requirements.txt
 ```
 
 ### 2️⃣ Launch the Dashboard
-
 ```bash
 streamlit run app.py
 ```
@@ -36,7 +34,6 @@ streamlit run app.py
 That's it — the dashboard opens at `http://localhost:8501`. No setup wizards, no YAML configuration hell.
 
 ### 3️⃣ Start Exploring
-
 Once it's running, you can:
 - **Draw a region** on the map that you want to monitor
 - **View NDVI** — a vegetation health score derived from satellite bands
@@ -44,7 +41,6 @@ Once it's running, you can:
 - **Download a PDF report** with everything laid out clearly
 
 💡 **You don't need to train anything.** Pre-trained YOLOv8 weights are already included.
-
 ---
 
 ## 📌 What Is This, and Why Does It Exist?
