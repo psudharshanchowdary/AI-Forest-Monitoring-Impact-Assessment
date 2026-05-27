@@ -514,33 +514,6 @@ If you want to go deeper on any of the technologies involved:
 
 ---
 
-## 🤝 Contributing
-
-I'd love help improving this. Here's how to get involved:
-
-1. **Fork** the repo
-2. **Create a branch** — `git checkout -b feature/your-idea`
-3. **Make your changes** and test them
-4. **Commit clearly** — `git commit -m "Add: what you added"`
-5. **Push and open a PR** with a description of what you changed and why
-
-**Things I'd especially welcome:**
-- 🐛 Bug fixes — if something breaks, please open an issue
-- 📊 New datasets — more regions, more satellites
-- 🤖 New model architectures — YOLOv9, DETR, SAM, etc.
-- 📚 Better documentation — always room to improve
-- 🚀 Cloud deployment support — AWS, GCP, Azure
-- 🧪 More tests — coverage isn't where I want it yet
-
-**Development setup:**
-```bash
-pip install -e ".[dev]"
-pytest -q
-python3 -m compileall -q src
-```
-
----
-
 
 
 ## ❓ Questions I Get Asked a Lot
@@ -865,11 +838,14 @@ ls -lh outputs/yolov8_seg/weights/best.pt
 
 > A walkthrough of the dashboard — drawing a region, fetching satellite data, viewing the segmentation results, and downloading the PDF report.
 
-<!-- Add your demo video link or embed here -->
-📹 *Coming soon — recording in progress.*
+📹 **[Watch the Demo on Google Drive](https://drive.google.com/file/d/19ta8GgF1wSXdQCdAajh4qC0m3_XcifbG/view?usp=sharing)**
 
-<!-- Example embed once you have a link:
-[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
--->
+---
+
+## 📄 Results Report
+
+The full PDF report — covering model evaluation metrics, NDVI analysis, segmentation results, and environmental data — is available here:
+
+📊 **[View the Results PDF](https://drive.google.com/file/d/1DjNRD-mG7P-bwxzJyu_D2QXvBgOBkoTY/view?usp=sharing)**
 
 ---
